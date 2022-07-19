@@ -1,2 +1,2 @@
-# diagram
+# diagrams
 Diagram.drawio
