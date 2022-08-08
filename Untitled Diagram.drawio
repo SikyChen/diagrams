@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T09:35:39.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0os6xZW1Ff1Tklm1NPrG" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T09:51:49.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ijOEDJFbC0dBqVMYiz3d" version="20.1.1" type="github">
   <diagram id="tFTRGcVF1fEIXkfs0HWW" name="Page-1">
     <mxGraphModel dx="1678" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="cFGMZwlh538WXo4uqq2s-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="cFGMZwlh538WXo4uqq2s-13" target="cFGMZwlh538WXo4uqq2s-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cFGMZwlh538WXo4uqq2s-13" value="镜像仓库&lt;br&gt;(https://registry.gz.cvte.cn/)" style="whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="cFGMZwlh538WXo4uqq2s-13" value="镜像仓库" style="whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="280" y="520" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cFGMZwlh538WXo4uqq2s-15" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;Harbor&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
