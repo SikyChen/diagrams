@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T03:03:08.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="1lktLhxzRbWsjIoJNw06" type="github"><diagram id="1s7QcpgOuhDaoHmSl98A">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-01T03:21:47.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_FZahSPuy7YYyNnrj9wL" version="20.2.3" type="github">
+  <diagram id="1s7QcpgOuhDaoHmSl98A" name="第 1 页">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-1" target="FCOi1G15XyQF1UqKBKPu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-2" target="FCOi1G15XyQF1UqKBKPu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-2" value="点击「获取海外链接」按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-4" target="FCOi1G15XyQF1UqKBKPu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-10" value="未获取到链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCOi1G15XyQF1UqKBKPu-7">
+          <mxGeometry x="-0.0377" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-9" value="获取链接成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-4" target="FCOi1G15XyQF1UqKBKPu-8">
+          <mxGeometry x="0.1667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-4" value="&lt;br&gt;调用接口获&lt;br&gt;取海外链接" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-6" target="FCOi1G15XyQF1UqKBKPu-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="650" />
+              <mxPoint x="420" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-6" value="弹窗显示&lt;br&gt;1. 提示语：未获取到下载地址，请选择区域后生成&lt;br&gt;2. 选择区域 + 重新生成链接 按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="510" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-8" target="FCOi1G15XyQF1UqKBKPu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-8" value="弹窗显示 &lt;br&gt;1.下载地址 + 复制按钮&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 选择区域 + 重新生成链接 按钮&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-11" target="FCOi1G15XyQF1UqKBKPu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-11" value="点击生成链接 按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCOi1G15XyQF1UqKBKPu-14" value="弹窗提示（类似校验和计算）&lt;br&gt;海外地址生成中，可进入「海外地址生成记录」查看进度" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="360" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
