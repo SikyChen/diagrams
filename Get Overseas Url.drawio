@@ -1,169 +1,195 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T06:33:17.736Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="g38OPRWEzHGENHw27R4-" version="20.2.7" type="github">
-  <diagram id="1s7QcpgOuhDaoHmSl98A" name="第 1 页">
-    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#FBFBFB" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FCOi1G15XyQF1UqKBKPu-1" target="FCOi1G15XyQF1UqKBKPu-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="325" y="30" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FCOi1G15XyQF1UqKBKPu-2" target="FCOi1G15XyQF1UqKBKPu-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-2" value="点击「获取海外链接」按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="280" y="130" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-4" target="FCOi1G15XyQF1UqKBKPu-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-10" value="未获取到链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FCOi1G15XyQF1UqKBKPu-7" vertex="1" connectable="0">
-          <mxGeometry x="-0.0377" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" y="29" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-9" value="获取链接成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-4" target="FCOi1G15XyQF1UqKBKPu-8" edge="1">
-          <mxGeometry x="0.1667" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-4" value="&lt;br&gt;调用接口获&lt;br&gt;取海外链接" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="270" y="220" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-6" target="FCOi1G15XyQF1UqKBKPu-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="520" y="500" />
-              <mxPoint x="340" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-6" value="弹窗显示（图2，类似获取外链）&lt;br&gt;1. 提示语：未获取到下载地址，请选择区域后生成&lt;br&gt;2. 选择区域 + 重新生成链接 按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="360" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-8" target="FCOi1G15XyQF1UqKBKPu-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-8" value="弹窗显示（图1，类似获取外链）&lt;br&gt;1.下载地址 + 复制按钮&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 选择区域 + 重新生成链接 按钮&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="40" y="370" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FCOi1G15XyQF1UqKBKPu-11" target="FCOi1G15XyQF1UqKBKPu-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-11" value="点击生成链接 按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="280" y="570" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-14" value="弹窗提示（图3，类似校验和计算）&lt;br&gt;海外地址生成中，可进入「海外地址生成记录」查看进度" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="160" y="650" width="360" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-17" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="760" width="610" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-18" value="海外下载链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="40" y="760" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-19" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="FCOi1G15XyQF1UqKBKPu-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="791" as="sourcePoint" />
-            <mxPoint x="398.9200000000001" y="789.06" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-20" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="991" as="sourcePoint" />
-            <mxPoint x="630" y="991" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-24" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="620" y="760" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-25" value="选择区域" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1009" width="230" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-26" value="重新生成链接" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="304" y="1009" width="86" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-36" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1400" width="360" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-37" value="海外下载链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1400" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.997;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="1430" as="sourcePoint" />
-            <mxPoint x="398.9200000000001" y="1429.06" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-40" value="海外下载链接生成中，可进入 [ &lt;font color=&quot;#007fff&quot;&gt;海外下载链接生成记录 &lt;/font&gt;] 中查&lt;br&gt;看进度。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1450" width="340" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-42" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1400" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FCOi1G15XyQF1UqKBKPu-45" value="确定" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="314" y="1510" width="76" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="210" y="830" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-3" value="固件(Software): &lt;br&gt;CP757782_HKC_MT9602_761_PN_HKC_4K_ATV_SA_PID_103_PB_HKC_AQ12V&lt;br&gt;6R8W_TWN_CBU_PT430GT018_P_5KEY_REF100_CHK4154a11a_ID8628125_r20220712_193135&lt;br&gt;_20220523_022843.tar(3.25MB)" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="803" width="570" height="71" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-4" value="&lt;div&gt;下载链接(Download Link)：&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://itapis.cvte.com/csb-file-uat/c9a8ac72-483a-44c5-892e-7&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4428e7010c3/&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;v1/download?token=rkt8SE8YpegNEedO-gw0B5yBgT6-7vDIKLA-Gci0P9wum0F1KYO_PL5C_QgGHlw8&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;IQB6zBgLaoP2zyXRxcPwcg&lt;/font&gt;(过期时间-Expiration Date: 2022-11-17 15:46:27)&lt;/div&gt;" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="875" width="570" height="74" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-6" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1120" width="610" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-7" value="海外下载链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1120" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-8" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="XU1H2xi3WDkB_L0GWGdi-10" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="1151" as="sourcePoint" />
-            <mxPoint x="398.9200000000001" y="1149.06" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="1283" as="sourcePoint" />
-            <mxPoint x="630" y="1283" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-10" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="620" y="1120" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-11" value="选择区域" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1301" width="230" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-12" value="生成链接" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="304" y="1301" width="66" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="210" y="1190" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-14" value="固件(Software): &lt;br&gt;CP757782_HKC_MT9602_761_PN_HKC_4K_ATV_SA_PID_103_PB_HKC_AQ12V&lt;br&gt;6R8W_TWN_CBU_PT430GT018_P_5KEY_REF100_CHK4154a11a_ID8628125_r20220712_193135&lt;br&gt;_20220523_022843.tar(3.25MB)" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1160" width="570" height="73" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-15" value="下载链接(Download Link)：&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;未获取到下载地址，请选择区域后生成。&lt;/font&gt;&lt;/span&gt;" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1232" width="570" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-17" value="复制海外下载链接" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="955" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-18" value="图1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#007FFF;" parent="1" vertex="1">
-          <mxGeometry x="40" y="730" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-19" value="图2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#007FFF;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1090" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XU1H2xi3WDkB_L0GWGdi-20" value="图3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#007FFF;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1370" width="40" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="1s7QcpgOuhDaoHmSl98A" name="第 1 页">
+        <mxGraphModel dx="930" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#FBFBFB" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FCOi1G15XyQF1UqKBKPu-1" target="FCOi1G15XyQF1UqKBKPu-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FCOi1G15XyQF1UqKBKPu-2" target="FCOi1G15XyQF1UqKBKPu-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-2" value="点击「获取海外链接」按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="140" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-4" target="FCOi1G15XyQF1UqKBKPu-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-10" value="未获取到链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FCOi1G15XyQF1UqKBKPu-7" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0377" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="29" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-9" value="获取链接成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-4" target="FCOi1G15XyQF1UqKBKPu-8" edge="1">
+                    <mxGeometry x="0.1667" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-4" value="&lt;br&gt;调用接口获&lt;br&gt;取海外链接" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="230" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-6" target="FCOi1G15XyQF1UqKBKPu-11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="520" y="510"/>
+                            <mxPoint x="460" y="510"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCOi1G15XyQF1UqKBKPu-12">
+                    <mxGeometry x="-0.7" relative="1" as="geometry">
+                        <mxPoint y="-4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-6" value="弹窗显示（图2，类似获取外链）&lt;br&gt;1. 提示语：未获取到下载地址，请选择区域后生成&lt;br&gt;2. 选择区域 + 重新生成链接 按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="370" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FCOi1G15XyQF1UqKBKPu-8" target="FCOi1G15XyQF1UqKBKPu-11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="220" y="510"/>
+                            <mxPoint x="460" y="510"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCOi1G15XyQF1UqKBKPu-13">
+                    <mxGeometry x="-0.8343" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FCOi1G15XyQF1UqKBKPu-8" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
+                    <mxGeometry x="-0.6859" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-8" value="弹窗显示（图1，类似获取外链）&lt;br&gt;1.下载地址 + 复制按钮&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 选择区域 + 重新生成链接 按钮&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="380" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FCOi1G15XyQF1UqKBKPu-11" target="FCOi1G15XyQF1UqKBKPu-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-11" value="点击生成链接 按钮" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="550" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-14" value="弹窗提示（图3，类似校验和计算）&lt;br&gt;海外地址生成中，可进入「海外地址生成记录」查看进度" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="630" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-17" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="760" width="610" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-18" value="海外下载链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="760" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-19" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="FCOi1G15XyQF1UqKBKPu-24" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="791" as="sourcePoint"/>
+                        <mxPoint x="398.9200000000001" y="789.06" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-20" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="991" as="sourcePoint"/>
+                        <mxPoint x="630" y="991" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-24" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="760" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-25" value="选择区域" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1009" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-26" value="重新生成链接" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="304" y="1009" width="86" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-36" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1400" width="360" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-37" value="海外下载链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1400" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.997;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="1430" as="sourcePoint"/>
+                        <mxPoint x="398.9200000000001" y="1429.06" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-40" value="海外下载链接生成中，可进入 [ &lt;font color=&quot;#007fff&quot;&gt;海外下载链接生成记录 &lt;/font&gt;] 中查&lt;br&gt;看进度。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="1450" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-42" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="1400" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FCOi1G15XyQF1UqKBKPu-45" value="确定" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="1510" width="76" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="830" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-3" value="固件(Software): &lt;br&gt;CP757782_HKC_MT9602_761_PN_HKC_4K_ATV_SA_PID_103_PB_HKC_AQ12V&lt;br&gt;6R8W_TWN_CBU_PT430GT018_P_5KEY_REF100_CHK4154a11a_ID8628125_r20220712_193135&lt;br&gt;_20220523_022843.tar(3.25MB)" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="803" width="570" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-4" value="&lt;div&gt;下载链接(Download Link)：&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://itapis.cvte.com/csb-file-uat/c9a8ac72-483a-44c5-892e-7&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4428e7010c3/&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;v1/download?token=rkt8SE8YpegNEedO-gw0B5yBgT6-7vDIKLA-Gci0P9wum0F1KYO_PL5C_QgGHlw8&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;IQB6zBgLaoP2zyXRxcPwcg&lt;/font&gt;(过期时间-Expiration Date: 2022-11-17 15:46:27)&lt;/div&gt;" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="875" width="570" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-6" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1120" width="610" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-7" value="海外下载链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1120" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-8" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="XU1H2xi3WDkB_L0GWGdi-10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="1151" as="sourcePoint"/>
+                        <mxPoint x="398.9200000000001" y="1149.06" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="1283" as="sourcePoint"/>
+                        <mxPoint x="630" y="1283" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-10" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="1120" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-11" value="选择区域" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1301" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-12" value="生成链接" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="304" y="1301" width="66" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="1190" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-14" value="固件(Software): &lt;br&gt;CP757782_HKC_MT9602_761_PN_HKC_4K_ATV_SA_PID_103_PB_HKC_AQ12V&lt;br&gt;6R8W_TWN_CBU_PT430GT018_P_5KEY_REF100_CHK4154a11a_ID8628125_r20220712_193135&lt;br&gt;_20220523_022843.tar(3.25MB)" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1160" width="570" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-15" value="下载链接(Download Link)：&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;未获取到下载地址，请选择区域后生成。&lt;/font&gt;&lt;/span&gt;" style="rounded=0;labelBackgroundColor=none;fontColor=#000000;align=left;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1232" width="570" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-17" value="复制" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="955" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-18" value="图1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#007FFF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="730" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-19" value="图2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#007FFF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1090" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XU1H2xi3WDkB_L0GWGdi-20" value="图3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#007FFF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1370" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="点击复制按钮&lt;br&gt;复制内容为 固件名 + 链接，类似获取外链" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="630" width="200" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
