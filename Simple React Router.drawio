@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T03:00:18.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jttrS32IzWvHGqiUTs6l" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T07:27:36.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9QRG4PfY3l_cLPHSqeKc" version="20.8.15" type="github">
   <diagram name="第 1 页" id="XhUzmyq-YkuXwWhYe8HO">
     <mxGraphModel dx="2074" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="b93YyMxRGzZXySlz8wEZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.013;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="b93YyMxRGzZXySlz8wEZ-7" target="b93YyMxRGzZXySlz8wEZ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b93YyMxRGzZXySlz8wEZ-18" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;BroswerRouter&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ navigationContext: NavigationContext&lt;br&gt;+ locationContext: LocationContext&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="b93YyMxRGzZXySlz8wEZ-18" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;BroswerRouter&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ navigationContext: NavigationContext&lt;br&gt;+ locationContext: LocationContext&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ children: ReactElement&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="1130" y="180" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="b93YyMxRGzZXySlz8wEZ-19" value="" style="shape=component;jettyWidth=8;jettyHeight=4;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="b93YyMxRGzZXySlz8wEZ-18">
@@ -63,8 +63,8 @@
         <mxCell id="b93YyMxRGzZXySlz8wEZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="b93YyMxRGzZXySlz8wEZ-21" target="b93YyMxRGzZXySlz8wEZ-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b93YyMxRGzZXySlz8wEZ-21" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Routes&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ match(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;通过过滤 children 的 path&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;属性，来显示匹配的 Route&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="342" width="180" height="90" as="geometry" />
+        <mxCell id="b93YyMxRGzZXySlz8wEZ-21" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Routes&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ children: ReactElement&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ match(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;通过过滤 children 的 path&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;属性，来显示匹配的 Route&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="342" width="180" height="108" as="geometry" />
         </mxCell>
         <mxCell id="b93YyMxRGzZXySlz8wEZ-22" value="" style="shape=component;jettyWidth=8;jettyHeight=4;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="b93YyMxRGzZXySlz8wEZ-21">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -74,8 +74,8 @@
         <mxCell id="b93YyMxRGzZXySlz8wEZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="b93YyMxRGzZXySlz8wEZ-24" target="b93YyMxRGzZXySlz8wEZ-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b93YyMxRGzZXySlz8wEZ-24" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Link&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ to: string&lt;br&gt;+ onClick(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;调用 navigator 方法跳转 url&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="342" width="180" height="90" as="geometry" />
+        <mxCell id="b93YyMxRGzZXySlz8wEZ-24" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Link&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ to: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ children: ReactElement&lt;br&gt;+ onClick(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;调用 navigator 方法跳转 url&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="342" width="180" height="108" as="geometry" />
         </mxCell>
         <mxCell id="b93YyMxRGzZXySlz8wEZ-25" value="" style="shape=component;jettyWidth=8;jettyHeight=4;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="b93YyMxRGzZXySlz8wEZ-24">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -85,7 +85,7 @@
         <mxCell id="b93YyMxRGzZXySlz8wEZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="b93YyMxRGzZXySlz8wEZ-27" target="b93YyMxRGzZXySlz8wEZ-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b93YyMxRGzZXySlz8wEZ-27" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Route&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ path: string&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="b93YyMxRGzZXySlz8wEZ-27" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Route&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ path: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ component: ReactElement&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="1000" y="502" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="b93YyMxRGzZXySlz8wEZ-28" value="" style="shape=component;jettyWidth=8;jettyHeight=4;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="b93YyMxRGzZXySlz8wEZ-27">
