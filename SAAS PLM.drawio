@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T17:52:16.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="aFFUxDWoqDav8RC-HV0I" version="24.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-22T17:57:42.772Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5rmnXe93joMgORNmfdpL" version="24.0.7" type="github" pages="4">
   <diagram name="第 1 页" id="OoXjvzzAkHHXIpEGZxyq">
     <mxGraphModel dx="2074" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -439,8 +439,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Xr2e6Z_DD1zVuUHeZsat-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="670" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="410" width="670" height="350" as="geometry" />
+          <mxGeometry x="70" y="500" width="670" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="680" width="630" height="60" as="geometry" />
@@ -494,37 +497,43 @@
           <mxGeometry x="450" y="620" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="460" width="330" height="70" as="geometry" />
+          <mxGeometry x="90" y="400" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-34" value="对比" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="490" width="70" height="30" as="geometry" />
+          <mxGeometry x="100" y="430" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-35" value="Plugin Buttons" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="90" y="460" width="120" height="30" as="geometry" />
+          <mxGeometry x="90" y="400" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-36" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="440" y="460" width="280" height="70" as="geometry" />
+          <mxGeometry x="440" y="400" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-37" value="Plugin Columns" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="440" y="460" width="120" height="30" as="geometry" />
+          <mxGeometry x="440" y="400" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-38" value="工序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="490" width="80" height="30" as="geometry" />
+          <mxGeometry x="450" y="430" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-39" value="关联BOM编号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="490" width="90" height="30" as="geometry" />
+          <mxGeometry x="540" y="430" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-40" value="引入替代料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="490" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Xr2e6Z_DD1zVuUHeZsat-42" value="BOM" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="80" y="420" width="120" height="30" as="geometry" />
+          <mxGeometry x="180" y="430" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-43" value="SearchAddRelation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="690" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Xr2e6Z_DD1zVuUHeZsat-44" value="ViewTable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="690" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xr2e6Z_DD1zVuUHeZsat-45" value="BomCore" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xr2e6Z_DD1zVuUHeZsat-47" value="BOM Plugins" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xr2e6Z_DD1zVuUHeZsat-48" value="BOM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="670" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
