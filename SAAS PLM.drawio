@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T14:23:55.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="t0E0byZqU8f5cO3RyfFw" version="24.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-27T14:39:54.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="0o_2GSO90vlAsgvd0yJm" version="24.1.0" type="github" pages="6">
   <diagram name="第 1 页" id="OoXjvzzAkHHXIpEGZxyq">
     <mxGraphModel dx="2066" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -673,8 +673,17 @@
         </mxCell>
         <mxCell id="ASu68f97bZoogYDHbavn-22" value="根据配置拉取插件资源&lt;div&gt;repositoryCode + libraryCode&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ASu68f97bZoogYDHbavn-19">
           <mxGeometry x="0.0763" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-33" y="-51" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gm3UTutSEGeAuhtBM3Si-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="390" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gm3UTutSEGeAuhtBM3Si-2" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="gm3UTutSEGeAuhtBM3Si-1">
+          <mxGeometry width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gm3UTutSEGeAuhtBM3Si-3" value="attrValueMap&amp;nbsp; &amp;nbsp;表单头信息&lt;br&gt;compConfig&amp;nbsp; &amp;nbsp; &amp;nbsp;插件配置信息&lt;br&gt;系统信息（租户、应用的信息）&lt;br&gt;classId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;分类ID&lt;br&gt;ownerId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 页签ID&lt;br&gt;itemId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 表单ID" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gm3UTutSEGeAuhtBM3Si-1">
+          <mxGeometry x="10" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
